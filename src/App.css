@@ -6,7 +6,7 @@ h1,
 h2,
 h3,
 .card-body > .card-title {
-  font-family: 'Lobster', cursive;
+  font-family: serif;
 }
 
 .card-title {
@@ -30,8 +30,8 @@ h2 {
 }
 
 .site-footer {
-  background-image: linear-gradient(#cec8ff, white);
-  padding: 20px 0;
+  background-color: #c2c2c5;
+  padding: 10px 0;
   margin-top: 2rem;
 }
 
