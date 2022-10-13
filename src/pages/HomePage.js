@@ -1,5 +1,9 @@
+import AboutUs from "./AboutUs";
+
 const HomePage = () => {
-  return <div>Home Page</div>
-}
+  return (
+    <AboutUs />
+  )
+};
 
 export default HomePage;
