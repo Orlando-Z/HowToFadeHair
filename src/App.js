@@ -7,7 +7,7 @@ import ContactPage from './pages/ContactPage';
 import HomePage from './pages/HomePage';
 import Appointment from './pages/Appointment';
 import BarberClassInfo from './pages/BarberClassInfo';
-import FAQ from './pages/FAQ';
+import AboutUs from './pages/AboutUs';
 import HairCut from './pages/HairCutInfo';
  
 function App() {
@@ -19,7 +19,7 @@ function App() {
         <Route path='contact' element={<ContactPage />} />
         <Route path='appointment' element={<Appointment />} />
         <Route path='classes' element={<BarberClassInfo />} />
-        <Route path='FAQ' element={<FAQ />} />
+        <Route path='about-us' element={<AboutUs />} />
         <Route path='haircuts' element={<HairCut />} />
       </Routes>
       <Footer />
