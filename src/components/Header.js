@@ -21,7 +21,7 @@ const Header = () => {
           alt="How to fade hair barber school logo"
           className="float-start"
         />
-        <h1 className="mt-2">How To Fade Hair Barber School</h1>
+        <h1 className="mt-2">How To Fade Hair Barber School Inc.</h1>
       </NavbarBrand>
       <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
       <Collapse isOpen={menuOpen} navbar>
