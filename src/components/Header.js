@@ -19,9 +19,8 @@ const Header = () => {
         <img
           src={BarberLogoWhite}
           alt="How to fade hair barber school logo"
-          className="float-start"
         />
-        <h1 className="mt-2">How To Fade Hair Barber School Inc.</h1>
+        How To Fade Hair Barber School Inc.
       </NavbarBrand>
       <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
       <Collapse isOpen={menuOpen} navbar>
